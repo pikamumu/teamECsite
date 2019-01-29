@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.box{
+	width : 90%;
+	display : block;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	margin-left : 3%;
+	float : left;
+}
+
+.left {
+	float : left;
+	width : 300px;
+	height : 325px;
+	margin-bottom : 40px;
+}
+
+.right {
+	float:left;
+	width : 750px;
+	margin-botton : 40px;
+}
+
+ img.item-image-box-320{/*商品画像*/
+	height : 320px;
+	width : auto;
+}
+
+.product-details-recommend-box {
+	width : 100%;
+	height: 250px;
+	display : block;
+	float : left;
+	font-size: 10px;
+	margin-top: 50px;
+}
+
+.recommend-box {
+	width: 33%;
+	clear: both;
+	display: table-cell;
+	vertical-align: bottom;
+	display:inline-block;
+	margin:auto ;
+}
+
+.recommend-box-link {
+	text-decoration: none;
+}
+
+.item-image-box-100 {
+	width: 100px;
+}
+
+table.vertical-list-table-mini{
+	width:100%;
+	margin-bottom:30px;s
+	border-collapse:separate;
+	border-spacing:0;
+	text-align:left;
+	font-size:1.0rem;
+	line-height:1.5;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+
+table.vertical-list-table-mini th{
+	width:25%;
+	padding:10px;
+	font-weight:400;
+	vertical-align:middle;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	background:#FF8856;
+	color:#fff;
+}
+
+table.vertical-list-table-mini td{
+	width:75%;
+	padding:10px;
+	vertical-align:middle;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background:#ffffff;
+}
